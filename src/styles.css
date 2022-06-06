@@ -1,6 +1,61 @@
-div {
-    border: 1px transparent;
-    margin: 5px;
-    padding: 5px;
+:root {
+    --plat: #E5E4E2;
+    --light-gray: #D3D3D3;
+    --gray: #808080;
+    --bluegray: #7393B3;
+
+}
+body {
+    background-color: var(--plat);
+    max-width: 700px;
+    margin: 50px 370px;
     
+}
+
+#theApp {
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 400px;
+    grid-gap: 20px 50px;
+}
+#theApp div{
+    display: flex;
+    justify-content:left;
+    background-color: var(--light-gray);
+
+}
+#sidebar {
+    align-items:center;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    flex-direction: column;
+    background-color: aqua;
+}
+#Visit {
+    justify-content: left;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: red;
+    flex-direction: column;
+}
+#Visit:after {
+    content:"";
+    width: 20%;
+    height: 30%;
+    background-color: var(--gray);
+    position: absolute;
+    left:40%;
+    top:40%;
+}
+#rev{
+    flex-direction: column;
+}
+#sent{
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+}
+#Aver{
+    flex-direction: column;
 }
