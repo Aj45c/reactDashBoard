@@ -1,8 +1,8 @@
 function Average () {
     return (
         <div id = "Aver">
-    <h5> Average Rating</h5>
-    <p>4.6</p>
+    <div id= 'head'> Average Rating</div>
+    <div id ='smol'>4.6</div>
         </div>
     )
 }

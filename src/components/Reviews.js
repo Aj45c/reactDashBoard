@@ -1,8 +1,8 @@
 function Reviews () {
     return (
         <div id = "rev">
-            <h5>Reviews</h5>
-            <h3>1,281</h3>
+            <div id= 'head'>Reviews</div>
+            <div id ='smol'>1,281</div>
         </div>
     )
 }

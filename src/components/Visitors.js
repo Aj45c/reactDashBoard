@@ -1,8 +1,8 @@
 function Visitors () {
     return (
         <div id = 'Visit'>
-            <h5>Website Visitors</h5>
-            <h3>821</h3>
+            <div id = "head">Website Visitors</div>
+            <div id = 'smol'>821</div>
         </div>
     )
 }

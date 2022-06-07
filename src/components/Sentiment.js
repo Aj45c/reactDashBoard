@@ -1,10 +1,10 @@
 function Sentiment () {
     return (
         <div id = "sent">
-            <h5>Sentiment Analysis</h5>
-            <p>960</p>
-            <p>122</p>
-            <p>321</p>
+            <div id="head">Sentiment Analysis</div>
+            <div id = 'smol'>960</div>
+            <div id = 'smol'>122</div>
+            <div id = 'smol'>321</div>
         </div>
     )
 }

@@ -9,6 +9,7 @@ body {
     background-color: var(--plat);
     max-width: 700px;
     margin: 50px 370px;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -31,6 +32,9 @@ body {
     flex-direction: column;
     background-color: aqua;
 }
+#sidebar:hover{
+    background-color: var(--bluegray);
+}
 #Visit {
     justify-content: left;
     grid-row-start: 2;
@@ -39,23 +43,43 @@ body {
     background-color: red;
     flex-direction: column;
 }
+#Visit:hover{
+    background-color:rgb(110, 40, 40);
+}
 #Visit:after {
     content:"";
-    width: 20%;
-    height: 30%;
+    width: 35%;
+    height: 34%;
     background-color: var(--gray);
     position: absolute;
     left:40%;
-    top:40%;
+    top:47%;
 }
 #rev{
     flex-direction: column;
 }
+#rev:hover{
+    background-color:rgb(52, 110, 40);
+}
 #sent{
     flex-direction: column;
     align-items: center;
-    line-height: 20px;
+    line-height: 37px;
+}
+#sent:hover{
+    background-color:rgb(140, 124, 52);
 }
 #Aver{
     flex-direction: column;
+}
+#Aver:hover{
+    background-color:rgb(40, 110, 101);
+}
+#head{
+    font-size: small;
+    font-weight: 400;
+}
+#smol{
+    font-size:x-large;
+    font-weight: 700;
 }
